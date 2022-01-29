@@ -3,7 +3,7 @@
 # Description
 The linux driver from Edimax is not working on Fedora (5.15).
 
-Linux driver: https://www.edimax.com/edimax/download/download/data/edimax/au/download/for_home/wireless_adapters/wireless_adapters_ac600_dual-band/ew-7811utc
+https://www.edimax.com/edimax/download/download/data/edimax/au/download/for_home/wireless_adapters/wireless_adapters_ac600_dual-band/ew-7811utc
 
 ## Errors
 /home/test/rtl8812au/core/rtw_br_ext.c:25:10: fatal error: net/ipx.h: No such file or directory
