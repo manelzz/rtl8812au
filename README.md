@@ -1,4 +1,4 @@
-# Linux driver for EW-7811UTC (AC600 Wireless Dual-Band Mini USB Adapter) version: 1.0.3.4 (2021-09-16)
+# Linux driver for EW-7811UTC (AC600 Wireless Dual-Band Mini USB Adapter)
 
 # Description
 The linux driver from Edimax version 1.0.3.4 (2021-09-16) is supported for kernel Fefora 3.11+5.11) and Ubuntu (4.15-5.11).
