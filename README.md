@@ -1,1 +1,25 @@
-# rtl8812au
+WiFi Drivers for EW-7811UTC
+
+The linux driver for EW-7811UTC is not working on Fedora (5.15), show a few errors.
+
+Driver from EDIMAX: https://www.edimax.com/edimax/download/download/data/edimax/au/download/for_home/wireless_adapters/wireless_adapters_ac600_dual-band/ew-7811utc
+
+Errors
+/home/test/rtl8812au/core/rtw_br_ext.c:25:10: fatal error: net/ipx.h: No such file or directory
+   25 | #include <net/ipx.h>
+
+/home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/os_dep/linux/recv_linux.c:408:76: error: ‘GRO_DROP’ undeclared (first use in this function)
+  408 |                         if (rtw_napi_gro_receive(&padapter->napi, pskb) != GRO_DROP)
+ 
+
+https://github.com/fsantini/rtl8812au/commit/62dff0256a5f613df04ecc41ee505d3afbba7f3a?diff=unified
+https://github.com/Amnaik17/rtl8188eus/commit/b77d6abf54556b2a8e64ea0551e2b7919f45a6cf
+
+Installing
+make
+sudo modprobe cfg80211
+sudo insmod 8812au.ko
+
+Credits:
+https://github.com/fsantini
+https://github.com/Amnaik17
