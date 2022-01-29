@@ -19,11 +19,11 @@ https://github.com/fsantini/rtl8812au/commit/62dff0256a5f613df04ecc41ee505d3afbb
 https://github.com/Amnaik17/rtl8188eus/commit/b77d6abf54556b2a8e64ea0551e2b7919f45a6cf
 x
 ## Installation
-'''python
+```python
 make
 sudo modprobe cfg80211
 sudo insmod 8812au.ko
-'''
+```
 
 ## Credits:
  - https://github.com/fsantini
