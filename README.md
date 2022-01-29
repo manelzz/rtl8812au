@@ -1,9 +1,11 @@
-# Linux driver for EW-7811UTC (AC600 Wireless Dual-Band Mini USB Adapter)
+# Linux driver for EW-7811UTC (AC600 Wireless Dual-Band Mini USB Adapter) version: 1.0.3.4 (2021-09-16)
 
 # Description
-The linux driver from Edimax is not working on Fedora (5.15).
+The linux driver from Edimax version 1.0.3.4 (2021-09-16) is supported for kernel Fefora 3.11+5.11) and Ubuntu (4.15-5.11).
 
 https://www.edimax.com/edimax/download/download/data/edimax/au/download/for_home/wireless_adapters/wireless_adapters_ac600_dual-band/ew-7811utc
+
+I want to use it with kernel 5.15 on Fedora.
 
 ## Errors
 /home/test/rtl8812au/core/rtw_br_ext.c:25:10: fatal error: net/ipx.h: No such file or directory
