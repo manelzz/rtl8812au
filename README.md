@@ -1,10 +1,11 @@
-WiFi Drivers for EW-7811UTC
+#Linux driver for EW-7811UTC (AC600 Wireless Dual-Band Mini USB Adapter)
 
-The linux driver for EW-7811UTC is not working on Fedora (5.15), show a few errors.
+#Description
+The linux driver from Edimax is not working on Fedora (5.15).
 
-Driver from EDIMAX: https://www.edimax.com/edimax/download/download/data/edimax/au/download/for_home/wireless_adapters/wireless_adapters_ac600_dual-band/ew-7811utc
+Linux driver: https://www.edimax.com/edimax/download/download/data/edimax/au/download/for_home/wireless_adapters/wireless_adapters_ac600_dual-band/ew-7811utc
 
-Errors
+##Errors
 /home/test/rtl8812au/core/rtw_br_ext.c:25:10: fatal error: net/ipx.h: No such file or directory
    25 | #include <net/ipx.h>
 
@@ -14,12 +15,12 @@ Errors
 
 https://github.com/fsantini/rtl8812au/commit/62dff0256a5f613df04ecc41ee505d3afbba7f3a?diff=unified
 https://github.com/Amnaik17/rtl8188eus/commit/b77d6abf54556b2a8e64ea0551e2b7919f45a6cf
-
-Installing
+x
+##Installation
 make
 sudo modprobe cfg80211
 sudo insmod 8812au.ko
 
-Credits:
+##Credits:
 https://github.com/fsantini
 https://github.com/Amnaik17
