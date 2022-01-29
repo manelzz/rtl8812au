@@ -1,0 +1,1 @@
+cmd_/home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/modules.order := {   echo /home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/8821au.ko; :; } | awk '!x[$$0]++' - > /home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/modules.order

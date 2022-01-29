@@ -1,0 +1,1 @@
+cmd_/home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/Module.symvers := sed 's/\.ko$$/\.o/' /home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/modules.order | scripts/mod/modpost    -o /home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/Module.symvers -e -i Module.symvers   -T -

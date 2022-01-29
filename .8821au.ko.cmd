@@ -1,0 +1,1 @@
+cmd_/home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/8821au.ko := ld -r -m elf_x86_64 --build-id=sha1  -T scripts/module.lds -o /home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/8821au.ko /home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/8821au.o /home/test/EW-7811UTC_UAC_DAC_USC_Linux_Driver_1.0.3.4.zip/8821au.mod.o;  true
