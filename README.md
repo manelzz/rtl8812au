@@ -22,7 +22,7 @@ Solution: https://github.com/Amnaik17/rtl8188eus/commit/b77d6abf54556b2a8e64ea05
 ```python
 make
 sudo modprobe cfg80211
-sudo insmod 8812au.ko
+sudo insmod 8821au.ko
 ```
 
 ## Credits:
