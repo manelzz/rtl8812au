@@ -26,8 +26,11 @@ sudo insmod 8821au.ko
 ```
 
 make it persistent on reboot with (tested on fedora)
+```python
 sudo bash -c "echo "8821au" >> /etc/modules-load.d/8821au.conf"
 sudo chmod -R +x /etc/modules-load.d/
+sudo cp 8821au.ko /lib/modules/$(uname -r)/kernel/net/wireless
+```
 
 ## Credits:
  - https://github.com/fsantini
