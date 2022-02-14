@@ -20,11 +20,7 @@ Solution: https://github.com/Amnaik17/rtl8188eus/commit/b77d6abf54556b2a8e64ea05
 
 ## Installation
 ```python
-make
-sudo modprobe cfg80211
-sudo insmod 8821au.ko
-or
-sudo make install
+make install
 sudo modprove 8821au
 ```
 
@@ -32,7 +28,6 @@ make it persistent on reboot with (tested on fedora)
 ```python
 sudo bash -c "echo "8821au" >> /etc/modules-load.d/8821au.conf"
 sudo chmod -R +x /etc/modules-load.d/
-//sudo cp 8821au.ko /lib/modules/$(uname -r)/kernel/net/wireless
 ```
 
 ## Credits:
