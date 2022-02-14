@@ -25,6 +25,10 @@ sudo modprobe cfg80211
 sudo insmod 8821au.ko
 ```
 
+make it persistent on reboot with (tested on fedora)
+sudo bash -c "echo "8821au" >> /etc/modules-load.d/8821au.conf"
+
+
 ## Credits:
  - https://github.com/fsantini
  - https://github.com/Amnaik17
