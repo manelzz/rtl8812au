@@ -20,7 +20,10 @@ Solution: https://github.com/Amnaik17/rtl8188eus/commit/b77d6abf54556b2a8e64ea05
 
 ## Installation
 ```python
-make install
+git clone https://github.com/manelzz/rtl8812au.git
+cd rtl8812au
+make
+sudo make install
 sudo modprobe 8821au
 ```
 
